@@ -49,7 +49,7 @@
   --section-padding-x: 120px;
   --header-height: 100px;
   --header-height-scrolled: 80px;
-  --color-primary: #d54d52;
+  --color-primary: #990000;
   --color-dark-1: #131313;
   --color-dark-2: #2d2d2d;
   --color-dark-3: #353535;
@@ -1711,18 +1711,7 @@ form label {
   filter: blur(130px);
 }
 
-.dark .bg-blurred-red:before {
-  background: rgba(255, 0, 112, 0.22);
-}
-.dark .bg-blurred-red-1:before {
-  background: rgba(255, 0, 112, 0.19);
-}
-.dark .bg-blurred-purple:before {
-  background: rgba(169, 0, 255, 0.42);
-}
-.dark .bg-blurred-blue:before {
-  background: rgba(0, 88, 253, 0.29);
-}
+
 
 /*---------------------------------------------------*/
 /*	WOW Animation
