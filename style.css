@@ -1248,7 +1248,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-@media (max-width: 400px){
+@media (max-width: 428px){
   .skill-progress-container{
     display:flex;
     flex-direction: column;
