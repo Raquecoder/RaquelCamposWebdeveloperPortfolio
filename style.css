@@ -1247,11 +1247,18 @@ a:hover {
 .skill-progress-item:last-child {
   margin-bottom: 0;
 }
-
+.icon-images {
+  width: 2.5em;
+  height: 2.5em;
+}
 @media (max-width: 428px){
   .skill-progress-container{
     display:flex;
     flex-direction: column;
+  }
+  .icon-images{
+    width:5em;
+    height: 5em;
   }
 
 }
