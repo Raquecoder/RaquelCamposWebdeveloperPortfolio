@@ -1255,14 +1255,13 @@ a:hover {
   .skill-progress-container{
     display:flex;
     flex-direction: column;
-    
-    border:2px red solid;
+
   }
 
   .icon-images{
     width:8em;
     height: 8em;
-    border:2px yellow solid;
+
   }
 
 }
