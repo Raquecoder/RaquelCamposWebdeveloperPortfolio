@@ -1172,10 +1172,11 @@ a:hover {
   .site-menu > ul {
     flex-direction: row;
     align-items: center;
-    margin-left: 40.625em ;
+    gap: 2.5em;
+    margin-left: 15em;
   }
   .site-menu ul li {
-   margin: 0 1.125rem;
+   margin: 1rem;
    
   }
 }
