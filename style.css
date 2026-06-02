@@ -1890,6 +1890,9 @@ a:hover {
 }
 
 .recommendation-card p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-dark-1);
   margin-bottom: 0;
   line-height: 1.8;
 }
@@ -1908,6 +1911,6 @@ a:hover {
 }
 .recommendation-text {
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.75;
     font-weight: 400;
 }
