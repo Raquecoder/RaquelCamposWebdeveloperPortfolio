@@ -1827,3 +1827,82 @@ a:hover {
     margin: 0 3rem;
   }
 }
+/*---------------------------------------------------*/
+/* Organizations & Recommendations
+/*---------------------------------------------------*/
+
+.organization-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid var(--color-light-gray-1);
+  transition: var(--transition-default);
+}
+
+.organization-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.organization-logo {
+  max-height: 70px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: var(--transition-default);
+}
+
+.organization-card:hover .organization-logo {
+  filter: grayscale(0%);
+}
+
+.recommendation-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  border-left: 4px solid var(--color-primary);
+  box-shadow: 0 5px 20px rgba(0,0,0,.08);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.review-avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-title {
+  margin: 0;
+  color: var(--color-gray-1);
+  font-size: 14px;
+}
+
+.recommendation-card p {
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+.recommendation-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.recommendation-note {
+  margin-top: 25px;
+  font-size: 14px;
+  color: var(--color-gray-1);
+}
