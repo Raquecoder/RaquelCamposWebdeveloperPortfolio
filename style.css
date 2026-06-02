@@ -1906,3 +1906,8 @@ a:hover {
   font-size: 14px;
   color: var(--color-gray-1);
 }
+.recommendation-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
